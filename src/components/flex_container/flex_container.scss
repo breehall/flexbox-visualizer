@@ -1,0 +1,28 @@
+
+
+#flex-container {
+    width: 60vw;
+    height: 50vh;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    display: flex;
+    gap: 5%; // make this a configurable option
+}
+
+// Flex Direction modifiers
+.flex-direction__row{
+    flex-direction: row;
+}
+
+.flex-direction__row-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-direction__column{
+    flex-direction: column;
+}
+
+.flex-direction__column-reverse{
+    flex-direction: column-reverse;
+}

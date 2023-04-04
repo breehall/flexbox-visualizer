@@ -1,0 +1,25 @@
+
+.propInputSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 20px auto;
+    width: 50%;
+}
+
+
+.propInputSelect > label, .propInputSelect > select {
+    height: 30px;
+    font-size: 1.5rem;
+    margin: 5px 0
+}
+
+.propInputSelect > label::first-letter {
+    text-transform: capitalize;
+}
+
+.propInputSelect > select {
+    width: 100%;
+}
+
+

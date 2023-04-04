@@ -1,0 +1,63 @@
+@import '../../global/theme.scss';
+
+.flex-item{
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+// Height modifiers 
+.height-1 {
+    
+}
+.height-2 {
+    
+}
+.height-3 {
+    
+}
+.height-4 {
+    
+}
+.height-5 {
+    
+}
+
+
+// Width modifiers 
+.width-1 {
+    flex-grow: 1;
+}
+.width-2 {
+    flex-grow: 2;
+}
+.width-3 {
+    flex-grow: 3;
+}
+.width-4 {
+    flex-grow: 4;
+}
+.width-5 {
+    flex-grow: 5;
+}
+
+// Color modifiers
+.primary-one {
+    background-color: $primary-one;
+}
+.primary-two {
+    background-color: $primary-two;
+}
+.primary-three {
+    background-color: $primary-three;
+}
+.primary-four {
+    background-color: $primary-four;
+}
+.primary-five {
+    background-color: $priamry-five;
+}
+
